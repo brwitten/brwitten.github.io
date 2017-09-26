@@ -5,15 +5,14 @@ html {
 h1 {
   text-align: center;
   padding: 10px;
-  color: gray;
   font-style: normal;
+  color: #5e7c63;
 }
 
 #headshot {
   max-width: 25%;
   max-height: 25%;
   border-radius: 20%;
-  border: 5px;
-  border-color: black;
-  padding: 10px;
+  border: 1px solid gray;
+  margin: 10px;
   }
