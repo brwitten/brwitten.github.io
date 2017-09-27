@@ -6,7 +6,7 @@ html {
 
 header {
   text-align: center;
-  padding: 5px 10px 40px 10px;
+  padding: 5px 10px 15px 10px;
   font-style: normal;
   color: #5e7c63;
 }
@@ -21,6 +21,20 @@ header {
   margin-left: auto;
   margin-right: auto;
   }
+
+.logos {
+  height: 30px;
+  width: 30px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+
+p {
+  word-wrap: break-word;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
 
 a:link {
   text-decoration: underline;
