@@ -8,8 +8,21 @@ header {
   text-align: center;
   color: #3a3d3b;
   background-color: #9db7a9;
-  margin-bottom: 20px;
   border-bottom: 2px solid #979e9a;
+}
+
+.topNav {
+
+}
+
+h3 {
+  text-align: center;
+  color: #3a3d3b;
+}
+
+footer {
+  background-color: #9db7a9;
+  height: 50px;
 }
 
 #headshot {
