@@ -1,25 +1,28 @@
 html {
   font-family: Geneva, Tahoma, Verdana, sans-serif;
   color: gray;
-  background-color: #f7f9f8;
+  background-color: #D8DAD3;
 }
 
 header {
   text-align: center;
   padding: 5px 10px 15px 10px;
   font-style: normal;
-  color: #5e7c63;
+  color: #3a3d3b;
+  background-color: #9db7a9;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #979e9a;
 }
 
 #headshot {
   max-width: 25%;
   max-height: 25%;
   border-radius: 20%;
-  border: 1px solid #979e9a;
+  border: 2px solid #979e9a;
   margin: 0px 10px 10px 10px;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  /*margin-left: auto;
+  margin-right: auto;*/
   }
 
 .logos {
