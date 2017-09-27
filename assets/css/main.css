@@ -1,6 +1,5 @@
 html {
   font-family: Geneva, Tahoma, Verdana, sans-serif;
-  color: gray;
   background-color: #D8DAD3;
 }
 
@@ -51,5 +50,4 @@ p {
 
 a:link {
   text-decoration: underline;
-  color: gray;
 }
