@@ -38,10 +38,12 @@ header {
   }
 
 #greeting {
-  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial;
+  font-family: Georgia, serif;
+  font-size: 50px;
+  word-wrap: normal;
   font-style: italic;
   float: right;
-  padding-right: 25%;
+  padding-right: 15%;
   padding-top: 10%;
 }
 
