@@ -12,5 +12,5 @@ This is a *work in progress* so please be kind, but pull requests are welcomed :
 Feel free to reach out to me at bethrwitten_AT_gmail_DOT_com.
 
 
-</content>
+]]></content>
 </snippet>
