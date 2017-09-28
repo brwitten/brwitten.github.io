@@ -1,7 +1,7 @@
 <snippet>
 <content><![CDATA[
 
-# Beth Witten's Personal Page
+# ${Beth Witten's Personal Page}
 
 #### Hi, I'm Beth.
 
