@@ -19,7 +19,6 @@ TODO: Write credits
 ## License
 TODO: Write license
 ]]></content>
-  <tabTrigger>readme</tabTrigger>
 </snippet>
 
 
