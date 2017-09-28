@@ -1,15 +1,16 @@
 html {
   font-family: Geneva, Tahoma, Verdana, sans-serif;
-  background-color: #FFFEEE;
+  background-color: #FFFFFF;
 }
 
 header {
   text-align: center;
-  color: #3a3d3b;
-  background-color: #9db7a9;
+  color: #2d2d2d;
+  background-color: #c7dbd3;
   display: inline-block;
   width: 100%;
   border-bottom: 2px solid #979e9a;
+  height: 60px;
 }
 
 .topNav {
@@ -17,17 +18,32 @@ header {
   display: inline-block;
 }
 
+#icons {
+  background-color: red;
+}
+
+#intro {
+  display: inline-block;
+}
+
 #headshot {
   max-width: 25%;
   max-height: 25%;
-  border-radius: 50%;
   border: 2px solid #979e9a;
   margin-top: 20px;
   margin-bottom: 20px;
-  display: block;
-  margin-left: auto;
+  display: inline-block;
+  margin-left: 15%;
   margin-right: auto;
   }
+
+#greeting {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial;
+  font-style: italic;
+  float: right;
+  padding-right: 25%;
+  padding-top: 10%;
+}
 
 h3 {
   text-align: center;
