@@ -1,31 +1,20 @@
 html {
   font-family: Geneva, Tahoma, Verdana, sans-serif;
-  background-color: #D8DAD3;
+  background-color: #FFFEEE;
 }
 
 header {
   text-align: center;
   color: #3a3d3b;
   background-color: #9db7a9;
+  display: inline-block;
+  width: 100%;
   border-bottom: 2px solid #979e9a;
 }
 
 .topNav {
-
-}
-
-h3 {
-  text-align: center;
-  color: #3a3d3b;
-}
-
-footer {
-  background-color: #9db7a9;
-  height: 50px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  color: #3a423c;
+  display: inline-block;
 }
 
 #headshot {
@@ -33,25 +22,58 @@ footer {
   max-height: 25%;
   border-radius: 50%;
   border: 2px solid #979e9a;
-  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   display: block;
   margin-left: auto;
   margin-right: auto;
   }
 
+h3 {
+  text-align: center;
+  color: #3a3d3b;
+}
+
+p {
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  display: block;
+  margin-bottom: 40px;
+  color: #505b54;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #505b54;
+}
+
+.project {
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  height: auto;
+  padding: 20px;
+  margin: 10px;
+  border: 2px solid #979e9a;
+  background-color: #c2cdd6;
+}
+
+footer {
+  text-align: center;
+  background-color: #9db7a9;
+  height: 50px;
+  position: absolute;
+  width: 100%;
+  border-top: 2px solid #979e9a;
+}
+
+
+
 .logos {
   height: 30px;
   width: 30px;
   padding: 10px;
-}
-
-p {
-  word-wrap: break-word;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
-}
-
-a:link {
-  text-decoration: underline;
 }
