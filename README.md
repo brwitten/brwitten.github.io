@@ -10,4 +10,4 @@ This is a *work in progress* so please be kind, but pull requests are welcomed :
 
 Feel free to reach out to me at bethrwitten_AT_gmail_DOT_com.
 
-![alt text](http://diysolarpanelsv.com/images/christmas-trees-clipart-silhouette-17.png)
+![alt text](https://gifrific.com/wp-content/uploads/2012/04/Tina-Fey-giving-herself-high-five.gif)
