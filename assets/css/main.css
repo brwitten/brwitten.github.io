@@ -22,7 +22,7 @@ header {
   background-color: red;
 }
 
-#intro {
+#introAll {
   display: inline-block;
 }
 
@@ -33,18 +33,27 @@ header {
   margin-top: 20px;
   margin-bottom: 20px;
   display: inline-block;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-right: auto;
+  float: left;
   }
 
-#greeting {
+#bigGreeting, #TLDR {
+  display: inline-block;
+  float: right;
+}
+
+#bigGreeting {
   font-family: Georgia, serif;
-  font-size: 50px;
+  font-size: 60px;
   word-wrap: normal;
   font-style: italic;
-  float: right;
-  padding-right: 15%;
+  padding-right: 25%;
   padding-top: 10%;
+}
+
+#TLDR {
+  color: red;
 }
 
 h3 {
@@ -64,7 +73,7 @@ p {
 ul {
   list-style-type: none;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #505b54;
 }
 
@@ -72,7 +81,7 @@ ul {
   display: inline-block;
   text-align: center;
   width: 200px;
-  height: auto;
+  height: 100px;
   padding: 20px;
   margin: 10px;
   border: 2px solid #979e9a;
