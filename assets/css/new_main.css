@@ -1,0 +1,7 @@
+/*reattempt to build with bootstrap*/
+
+#logos img {
+  display: inline-block;
+  border: 2px solid red;
+  margin: 5px;
+}

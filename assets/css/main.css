@@ -37,13 +37,13 @@ header {
   margin-right: auto;
   float: left;
   }
-
+/*
 #bigGreeting, #TLDR {
   display: inline-block;
-  float: right;
+  float: right;*/
 }
 
-#bigGreeting {
+/*#bigGreeting {
   font-family: Georgia, serif;
   font-size: 60px;
   word-wrap: normal;
@@ -53,7 +53,7 @@ header {
 }
 
 #TLDR {
-  color: red;
+  color: red;*/
 }
 
 h3 {

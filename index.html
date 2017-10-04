@@ -15,6 +15,7 @@
   <!-- styles -->
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
   <!-- favicon -->
@@ -36,14 +37,23 @@
         </nav>
    </header>
 
-    <div id="introAll">
-      <img id="headshot" src="assets/images/gray_headshot.jpg">
-      <a id="introText">
-        <h1 id="bigGreeting"> Hi,</br>I'm Beth.</h1>
-      </a>
-    </div>
+<!-- bootstrap practice -->
 
-    <p id="littleBio"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<div class="container" id="introAll">
+  <div class="row">
+    <div class="col-md-6" style="background-color:green;">
+      <img id="headshot" src="assets/images/gray_headshot.jpg">
+    </div>
+    <div class="col-md-6" id="introText" style="background-color:orange;">
+        <div class="col-md-12" style="background-color:pink;">
+          <h1 id="bigGreeting"> Hi,</br>I'm Beth.</h1>
+        </div>
+        <div class="col-md-12" id="littleBio" style="background-color:red;">
+          <p>Lorem ipsum...</p>
+        </div>
+    </div>
+  </div>
+</div>
 
     <h3> Here are some of my projects. </h3>
     <ul>
@@ -58,8 +68,7 @@
     </ul>
     <h3> Want to chat? </h3>
       <ul>
-        <li> Email me at bethrwitten_AT_gmail_DOT_com </li>
-      </ul>
+        <li> Email me at bethrwitten_AT_gmail_DOT_com </li> -->
 
     <footer>
 
