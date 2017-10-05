@@ -22,13 +22,10 @@ body {
   height: 30px;
 }
 
-#introAll {
-  margin-top: 50px;
-}
-
 #headshot {
   max-width: 100%;
   border: 1px solid black;
+  margin-top: 100px;
 }
 
 #bigGreeting {
