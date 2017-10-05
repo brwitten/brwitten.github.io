@@ -1,7 +1,13 @@
 /*reattempt to build with bootstrap*/
 
+
+body {
+  font-family:'PT Sans', sans-serif;
+}
+
 #header {
   border: 1px solid black;
+  margin-bottom: 50px;
 
 }
 
@@ -14,9 +20,35 @@
   display: inline-block;
   margin-top: 10%;
   height: 30px;
-  border: 2px solid red;
 }
 
-p {
-  font-size: 50px;
+#introAll {
+  margin-top: 50px;
+}
+
+#headshot {
+  max-width: 100%;
+  border: 1px solid black;
+}
+
+#bigGreeting {
+  font-family: Georgia, sans-serif;
+  font-size: 75px;
+  font-weight: bold;
+  font-style: italic;
+  margin-top: 100px;
+  margin-left: 25%;
+}
+
+#littleBio {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.project {
+  font-size: 75px;
 }
