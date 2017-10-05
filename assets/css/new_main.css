@@ -1,20 +1,22 @@
 /*reattempt to build with bootstrap*/
 
 #header {
-  background-color: gray;
-  border-bottom: 1px solid black;
+  border: 1px solid black;
+
 }
 
 #header-name {
-  font-family: 'Roboto';
-  font-style: bold;
-  color: white;
-  height: 100%;
-  margin-top: 10%;
+  font-family:'PT Sans', sans-serif;
+  font-weight: bold;
 }
 
 #logos img {
   display: inline-block;
   margin-top: 10%;
   height: 30px;
+  border: 2px solid red;
+}
+
+p {
+  font-size: 50px;
 }
