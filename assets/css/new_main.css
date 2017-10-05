@@ -49,6 +49,20 @@ body {
   padding-right: 10%;
 }
 
-.project {
-  font-size: 75px;
+#projects {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+#p1, #p2, #p3 {
+  border: 2px solid black;
+  margin-left: 4%;
+  margin-right: 3%;
+  display: inline-block;
+}
+
+#footer {
+  margin-top: 100px;
 }

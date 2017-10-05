@@ -1,106 +1,68 @@
-html {
-  font-family: Geneva, Tahoma, Verdana, sans-serif;
-  background-color: #FFFFFF;
+/*reattempt to build with bootstrap*/
+
+
+body {
+  font-family:'PT Sans', sans-serif;
 }
 
-header {
-  text-align: center;
-  color: #2d2d2d;
-  background-color: #c7dbd3;
+#header {
+  border: 1px solid black;
+  margin-bottom: 50px;
+
+}
+
+#header-name {
+  font-family:'PT Sans', sans-serif;
+  font-weight: bold;
+}
+
+#logos img {
   display: inline-block;
-  width: 100%;
-  border-bottom: 2px solid #979e9a;
-  height: 60px;
-}
-
-.topNav {
-  color: #3a423c;
-  display: inline-block;
-}
-
-#icons {
-  background-color: red;
+  margin-top: 10%;
+  height: 30px;
 }
 
 #introAll {
-  display: inline-block;
+  margin-top: 50px;
 }
 
 #headshot {
-  max-width: 25%;
-  max-height: 25%;
-  border: 2px solid #979e9a;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  display: inline-block;
-  margin-left: 20%;
-  margin-right: auto;
-  float: left;
-  }
-/*
-#bigGreeting, #TLDR {
-  display: inline-block;
-  float: right;*/
+  max-width: 100%;
+  border: 1px solid black;
 }
 
-/*#bigGreeting {
-  font-family: Georgia, serif;
-  font-size: 60px;
-  word-wrap: normal;
+#bigGreeting {
+  font-family: Georgia, sans-serif;
+  font-size: 75px;
+  font-weight: bold;
   font-style: italic;
-  padding-right: 25%;
-  padding-top: 10%;
-}
-
-#TLDR {
-  color: red;*/
-}
-
-h3 {
-  text-align: center;
-  color: #3a3d3b;
-}
-
-p {
+  margin-top: 100px;
   margin-left: 25%;
-  margin-right: 25%;
-  text-align: center;
-  display: block;
-  margin-bottom: 40px;
-  color: #505b54;
 }
 
-ul {
-  list-style-type: none;
+#littleBio {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   text-align: center;
-  margin-bottom: 20px;
-  color: #505b54;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
-.project {
+#projects {
+  font-size: 50px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 75px;
+}
+
+#p1, #p2, #p3 {
+  border: 2px solid black;
+  margin-left: 4%;
+  margin-right: 3%;
   display: inline-block;
-  text-align: center;
-  width: 200px;
-  height: 100px;
-  padding: 20px;
-  margin: 10px;
-  border: 2px solid #979e9a;
-  background-color: #c2cdd6;
 }
 
-footer {
-  text-align: center;
-  background-color: #9db7a9;
-  height: 50px;
-  position: absolute;
-  width: 100%;
-  border-top: 2px solid #979e9a;
-}
-
-
-
-.logos {
-  height: 30px;
-  width: 30px;
-  padding: 10px;
+#footer {
+  margin-top: 100px;
 }
