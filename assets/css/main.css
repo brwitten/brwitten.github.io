@@ -1,65 +1,31 @@
-/*reattempt to build with bootstrap*/
-
-
-body {
-  font-family:'PT Sans', sans-serif;
+body, html {
+  height: 100%;
+  font-family: Georgia,Times,"Times New Roman",serif;
 }
 
-#header {
-  border: 1px solid black;
-  margin-bottom: 50px;
-
-}
-
-#header-name {
-  font-family:'PT Sans', sans-serif;
-  font-weight: bold;
-}
-
-#logos img {
-  display: inline-block;
-  margin-top: 10%;
-  height: 30px;
-}
-
-#headshot {
-  max-width: 100%;
-  border: 1px solid black;
-  margin-top: 100px;
+#main-bg {
+  background-image: url("../images/ga_tall.jpg");
+  height: 500px;
+  width: 400px;
+  min-width: 330px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 30px;
 }
 
 #bigGreeting {
-  font-family: Georgia, sans-serif;
-  font-size: 75px;
-  font-weight: bold;
+  font-size: 70px;
   font-style: italic;
-  margin-top: 100px;
+  font-weight: bold;
+}
+
+#bio {
+  font-size: 20px;
+}
+
+#bigGreeting,
+#bio {
   margin-left: 25%;
-}
-
-#littleBio {
-  font-size: 30px;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-#projects {
-  font-size: 50px;
-  text-align: center;
-  margin-top: 100px;
-  margin-bottom: 75px;
-}
-
-#p1, #p2, #p3 {
-  border: 2px solid black;
-  margin-left: 4%;
-  margin-right: 3%;
-  display: inline-block;
-}
-
-#footer {
-  margin-top: 100px;
+  margin-top: 15%;
 }
