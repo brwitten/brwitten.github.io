@@ -1,6 +1,14 @@
 body, html {
   height: 100%;
-  font-family: Georgia,Times,"Times New Roman",serif;
+  font-family: 'Saira', sans-serif;
+}
+
+#header-name {
+  text-align: center;
+}
+
+#mainContainer {
+  margin-top: 5%;
 }
 
 #main-bg {
@@ -16,16 +24,28 @@ body, html {
 
 #bigGreeting {
   font-size: 70px;
-  font-style: italic;
   font-weight: bold;
+  margin-top: 25%;
 }
 
 #bio {
-  font-size: 20px;
+  font-size: 22px;
+  margin-top: 30px;
 }
 
 #bigGreeting,
 #bio {
-  margin-left: 25%;
-  margin-top: 15%;
+  margin-left: 10%;
+}
+
+#contactLinks {
+  font-size: 18px;
+  margin-top: 40px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+a:hover {
+  font-weight: bold;
 }
