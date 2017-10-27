@@ -1,2 +1,2 @@
 // sanity check
-console.log("app.js linked.");
+console.log("Thanks for taking a look around!");
